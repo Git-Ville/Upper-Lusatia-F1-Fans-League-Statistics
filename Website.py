@@ -8,4 +8,8 @@ st.title("Willkommen auf der Website der F1 Fans in Upper Lusatia!")
 st.write("Hier findest du Statistiken und Informationen zu F1-Fans in Upper Lusatia.")
 st.header("Qualifying", divider=True)
 st.header("Rennen", divider=True)
+
+chartdata = rennen_gesamtrang_transponiert
+st.line_chart(chart_data)
+
 st.header("Hall of Fame", divider=True)
