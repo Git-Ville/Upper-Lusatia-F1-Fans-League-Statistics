@@ -1,7 +1,7 @@
 import streamlit as st
 
 #Erstellung Website
-st.set_page_config(page_title="Statistiken Upper Lusatia F1 Fans", layout="wide")
+st.set_page_config(page_title="Statistiken Upper Lusatia F1 Fans", layout="centered")
 
 # Hinzufügen von Inhalt
 st.title("Willkommen auf der Website der F1 Fans in Upper Lusatia!")
