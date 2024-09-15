@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt 
 
 #Erstellung Website
 st.set_page_config(page_title="Statistiken Upper Lusatia F1 Fans", layout="centered")
