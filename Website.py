@@ -8,7 +8,7 @@ st.set_page_config(page_title="Statistics F1 Fantasy",page_icon="🏎️", layou
 
 # add title and explanation
 st.title("Willkommen auf der Website der F1 Fans aus Upper Lusatia (und Umgebung)!")
-st.write("Lights out and away we go - Hier findest du Statistiken und Informationen zu schon heute legendären F1-Fantasy-Liga »Upper Lusatia F1 Fans«.")
+st.write("Lights out and away we go - Hier findest du Statistiken und Informationen zu der schon heute legendären F1-Fantasy-Liga »Upper Lusatia F1 Fans«.")
 
 # add tabs
 tab1, tab2, tab3 = st.tabs(["🔴 Qualifying", "🟢 Race", "🟠 Hall of Fame"])
@@ -48,6 +48,6 @@ with tab2:
 #tab3
 with tab3:
     st.header("Hall of Fame", divider="orange")
-    st.subheader("ewige Tabelle")
+    st.subheader("Ewige Tabelle")
     from Statistics import ewige_tabelle
     st.dataframe(ewige_tabelle)
