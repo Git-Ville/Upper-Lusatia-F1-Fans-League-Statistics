@@ -31,4 +31,4 @@ with tab2:
     st.line_chart(Abstände_transponiert)
 
 with tab3:
-    st.header("Hall of Fame", divider="yellow")
+    st.header("Hall of Fame", divider="orange")
