@@ -28,7 +28,7 @@ with tab2:
     st.subheader("Saisonverlauf")
     # line chart placement history 
     from Statistics import rennen_gesamtrang_transponiert
-    st.line_chart(rennen_gesamtrang_transponiert, colors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"])
+    st.line_chart(rennen_gesamtrang_transponiert, color = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"])
 
     st.subheader("Abstände")
     # line chart relative distances
@@ -43,7 +43,7 @@ with tab2:
     st.subheader("Rennsiege")
     #bar chart race wins
     from Statistics import Rennsiege_df
-    st.bar_chart(Rennsiege_df)
+    st.bar_chart(Rennsiege_df, color = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"])
     
 
 #tab3
