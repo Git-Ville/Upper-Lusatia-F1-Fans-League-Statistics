@@ -28,20 +28,7 @@ with tab2:
     st.subheader("Saisonverlauf")
     # line chart placement history 
     from Statistics import rennen_gesamtrang_transponiert
-    st.line_chart(rennen_gesamtrang_transponiert, colors = [
-    "#1f77b4",  # Blau
-    "#ff7f0e",  # Orange
-    "#2ca02c",  # Grün
-    "#d62728",  # Rot
-    "#9467bd",  # Lila
-    "#8c564b",  # Braun
-    "#e377c2",  # Pink
-    "#7f7f7f",  # Grau
-    "#bcbd22",  # Gelb
-    "#17becf",  # Cyan
-    "#00bfc4"   # Türkis
-]
-)
+    st.line_chart(rennen_gesamtrang_transponiert, colors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"])
 
     st.subheader("Abstände")
     # line chart relative distances
