@@ -16,19 +16,36 @@ tab1, tab2, tab3 = st.tabs(["🔴 Qualifying", "🟢 Race", "🟠 Hall of Fame"]
 #tab1
 with tab1:
     st.header("Qualifying", divider="red")
+    
+    #bar chart pole positions
     from Statistics import pole_position_df
     st.bar_chart(pole_position_df)
 
+#tab2
 with tab2:
     st.header("Race", divider="green")
-    from Statistics import Rennsiege_df
-    st.bar_chart(Rennsiege_df)
-    from Statistics import rennen_gesamt_transponiert
-    st.line_chart(rennen_gesamt_transponiert)
+    
+    st.subheader("Saisonverlauf")
+    # line chart placement history 
     from Statistics import rennen_gesamtrang_transponiert
     st.line_chart(rennen_gesamtrang_transponiert)
+
+    st.subheader("Abstände")
+    # line chart relative distances
     from Statistics import Abstände_transponiert
     st.line_chart(Abstände_transponiert)
+  
+    st.subheader("Gesamtpunkte")
+    #line chart total points
+    from Statistics import rennen_gesamt_transponiert
+    st.line_chart(rennen_gesamt_transponiert)
 
+    st.subheader("Rennsiege")
+    #bar chart race wins
+    from Statistics import Rennsiege_df
+    st.bar_chart(Rennsiege_df)
+    
+
+#tab3
 with tab3:
     st.header("Hall of Fame", divider="orange")
