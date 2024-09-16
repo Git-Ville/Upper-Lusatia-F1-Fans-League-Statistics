@@ -11,7 +11,7 @@ st.title("Willkommen auf der Website der F1 Fans in Upper Lusatia!")
 st.write("Hier findest du Statistiken und Informationen zu F1-Fans in Upper Lusatia.")
 
 # add tabs
-tab1, tab2, tab3 = st.tabs(["🔴 Qualifying", "🟢 Race", "🟡 Hall of Fame"])
+tab1, tab2, tab3 = st.tabs(["🔴 Qualifying", "🟢 Race", "🟠 Hall of Fame"])
 
 #tab1
 with tab1:
