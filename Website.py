@@ -48,3 +48,6 @@ with tab2:
 #tab3
 with tab3:
     st.header("Hall of Fame", divider="orange")
+    st.subheader("ewige Tabelle")
+    from Statistics import ewige_tabelle
+    st.dataframe(ewige_tabelle)

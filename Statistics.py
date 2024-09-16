@@ -137,3 +137,7 @@ Abstände.sort_values(Abstände.columns[-1], inplace=True, ascending=False)
 
 # Transponieren des DataFrames
 Abstände_transponiert = Abstände.transpose()
+
+# ewige Tabelle
+ewige_tabelle = pd.read_csv("Data/ewige_tabelle.csv", encoding="utf-8", sep=";")
+print(ewige_tabelle)
