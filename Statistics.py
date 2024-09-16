@@ -1,12 +1,9 @@
 # Hier importieren wir alle notwendigen Module
 
 import pandas as pd
-import os 
-import matplotlib.pyplot as plt
-import numpy as np
 
 # Hier lesen wir die Daten ein
-data_quali = pd.read_csv("Users/juliu/Documents/Hobbys/Upper-Lusatia-F1-Fans-League-Statistics/Data/quali.csv", encoding="utf-8", sep=",", index_col=0)
+data_quali = pd.read_csv("Data/quali.csv", encoding="utf-8", sep=",", index_col=0)
 
 
 
