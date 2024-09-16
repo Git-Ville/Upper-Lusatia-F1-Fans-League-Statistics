@@ -7,7 +7,7 @@ st.set_page_config(page_title="Statistics F1 Fantasy",page_icon="🏎️", layou
 
 
 # add title and explanation
-st.title("🏁🏁Willkommen auf der Website der F1 Fans aus Upper Lusatia (und Umgebung)!🏁🏁")
+st.title("Willkommen auf der Website der F1 Fans aus Upper Lusatia (und Umgebung)!")
 st.write("Lights out and away we go - Hier findest du Statistiken und Informationen zu der schon heute legendären F1-Fantasy-Liga »Upper Lusatia F1 Fans«.")
 
 # add tabs
