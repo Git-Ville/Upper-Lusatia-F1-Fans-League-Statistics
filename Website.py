@@ -2,13 +2,13 @@ import streamlit as st
 import pandas as pd
 
 # set Website
-st.set_page_config(page_title="Statistiken Upper Lusatia F1 Fans", layout="centered")
+st.set_page_config(page_title="Statistics F1 Fantasy",page_icon="🏎️", layout="centered", menu_items={'about' = "Made by Julius with Streamlit"})
 
 
 
 # add title and explanation
-st.title("Willkommen auf der Website der F1 Fans in Upper Lusatia!")
-st.write("Hier findest du Statistiken und Informationen zu F1-Fans in Upper Lusatia.")
+st.title("Willkommen auf der Website der F1 Fans aus Upper Lusatia (und Umgebung)!")
+st.write("Lights out and away we go - Hier findest du Statistiken und Informationen zu schon heute legendären F1-Fantasy-Liga »Upper Lusatia F1 Fans«.")
 
 # add tabs
 tab1, tab2, tab3 = st.tabs(["🔴 Qualifying", "🟢 Race", "🟠 Hall of Fame"])
