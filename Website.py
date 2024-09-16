@@ -25,7 +25,19 @@ with tab1:
 with tab2:
     st.header("Race", divider="green")
     
-    st.subheader("Saisonverlauf")
+    st.subheader("Saisonverlauf", colors = [
+    "#1f77b4",  # Blau
+    "#ff7f0e",  # Orange
+    "#2ca02c",  # Grün
+    "#d62728",  # Rot
+    "#9467bd",  # Lila
+    "#8c564b",  # Braun
+    "#e377c2",  # Pink
+    "#7f7f7f",  # Grau
+    "#bcbd22",  # Gelb
+    "#17becf",  # Cyan
+]
+)
     # line chart placement history 
     from Statistics import rennen_gesamtrang_transponiert
     st.line_chart(rennen_gesamtrang_transponiert)
