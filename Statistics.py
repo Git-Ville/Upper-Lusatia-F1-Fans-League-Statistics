@@ -3,7 +3,7 @@
 import pandas as pd
 
 # Hier lesen wir die Daten ein
-data_quali = pd.read_csv("Data/quali.csv", encoding="utf-8", sep=",", index_col=0)
+data_quali = pd.read_csv("Data/Quali.csv", encoding="utf-8", sep=",", index_col=0)
 
 
 
