@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import altair as alt
 
 # set Website
 st.set_page_config(page_title="Statistics F1 Fantasy",page_icon="🏎️", layout="centered", menu_items={'about': "Made by Julius with Streamlit"})
