@@ -49,6 +49,13 @@ with tab2:
 #tab3
 with tab3:
     st.header("Hall of Fame", divider="orange")
+    
+    #vergangene Saisons
+    st.subheader("Historie")
+    from Statistics import Historie
+    st.dataframe(Historie)
+    
+    #ewige Tabelle
     st.subheader("Ewige Tabelle")
     from Statistics import ewige_tabelle
     st.dataframe(ewige_tabelle)

@@ -141,3 +141,7 @@ Abstände_transponiert = Abstände.transpose()
 # ewige Tabelle
 ewige_tabelle = pd.read_csv("Data/ewige_Tabelle.csv", encoding="utf-8", sep=";", index_col=0)
 print(ewige_tabelle)
+
+# vergangene Saisons
+Historie = pd.read_csv("Data/Sieger.csv", encoding="utf-8", sep=",", index_col=0 )
+print(Historie)
