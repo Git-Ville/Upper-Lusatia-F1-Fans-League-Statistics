@@ -12,7 +12,7 @@ st.title("Willkommen auf der Website der F1 Fans aus Upper Lusatia (und Umgebung
 st.write("Lights out and away we go - Hier findest du Statistiken und Informationen zu der schon heute legendären F1-Fantasy-Liga »Upper Lusatia F1 Fans«.")
 
 # add tabs
-tab2, tab3 = st.tabs(["🏎️ Qualifying", "🏁 Weekend", "🏆 Hall of Fame"])
+tab2, tab3 = st.tabs(["🏁 Weekend", "🏆 Hall of Fame"])
 
 #tab1
 """with tab1:
